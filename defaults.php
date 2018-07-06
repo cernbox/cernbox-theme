@@ -81,7 +81,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getName() {
-		return '';
+		return 'EOSHOME USER ACCEPTANCE TEST';
 	}
 
 	/**
@@ -89,7 +89,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getHTMLName() {
-		return '';
+		return 'EOSHOME USER ACCEPTANCE TEST';
 	}
 
 	/**
