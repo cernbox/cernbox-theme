@@ -83,3 +83,9 @@ button.primary:focus,
 	background-image: url('../img/logo-icon.svg');
 	height: 34px;
 }
+
+
+/* make swan logo bigger */
+a.action.action-openinswaninline.permanent > img {
+	width: 128px;
+}
