@@ -132,3 +132,15 @@ a.action.action-openinswaninline.permanent > img {
     width: 68px;
     margin-right: 0;
 }
+
+#body-public iframe {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	z-index: 150;
+}
