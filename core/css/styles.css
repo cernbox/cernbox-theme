@@ -89,3 +89,46 @@ button.primary:focus,
 a.action.action-openinswaninline.permanent > img {
 	width: 90px;
 }
+
+#shareWithList li.share-entry {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    flex-wrap: wrap;
+}
+
+.share-entry:not(:last-child) {
+    border-bottom: 1px solid #eee;
+}
+
+.share-item {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.share-item .link-entry--icon-button {
+    line-height: 1em;
+}
+
+#shareWithList .share-link {
+    font-size: 0.8em;
+    width: 100%;
+    padding-top: 5px;
+    font-weight: initial;
+}
+
+#shareWithList .share-link input {
+	width: calc(100% - 71px);
+    box-sizing: border-box;
+    font-size: 1em;
+    padding: 3px;
+	margin-top: 0;
+}
+
+#shareWithList .share-link button {
+	font-size: 1em;
+    line-height: 1em;
+    width: 68px;
+    margin-right: 0;
+}
